@@ -1,7 +1,7 @@
 # cluster specific values
 cluster:
   # specify cluster name
-  name: template-rke2
+  name: enablement-cluster
 
   # specify cluster labels
   labels: {}
@@ -13,7 +13,7 @@ cluster:
 cloudCredentialSecretName: ""
 
 # specify cloud provider, options are amazonec2, digitalocean, azure, vsphere or custom
-cloudprovider: "digitalocean"
+cloudprovider: "vsphere"
 
 kubernetesVersion: ""
 
